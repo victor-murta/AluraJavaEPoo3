@@ -8,15 +8,15 @@ public class TesteReferencia {
         g.setNome("Gerente 1");
         g.setSalario(5000.0);
 
-        Funcionario f = new Funcionario();
-        f.setSalario(1000);
+        Designer d = new Designer();
+        d.setSalario(1000);
 
         EditorVideo e = new EditorVideo();
         e.setSalario(2000.0);
 
         ControleBonificacao controle = new ControleBonificacao();
         controle.registra(g);
-        controle.registra(f);
+        controle.registra(d);
         controle.registra(e);
 
 

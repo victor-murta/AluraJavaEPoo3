@@ -13,7 +13,7 @@ public class Gerente extends Funcionario{
 
     public double getBonificacao() {
         //super = referência da classe superior (classe mãe)
-        return super.getBonificacao() + super.getSalario();
+        return super.getSalario();
     }
 
 }
